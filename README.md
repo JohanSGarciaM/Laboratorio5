@@ -152,6 +152,17 @@ Si tiene que poner la información para todos los servlets o JSP independienteme
 
 ![](Img/punto6b.JPG)
 
+* Heroku requiere los siguientes archivos de configuración en el directorio raiz del proyecto, de manera que sepa qué versión de Java utilizar, y cómo iniciar la aplicación, respectivamente:
+
+![](Img/propertiesProcfie.JGP)
+
+### Punto 10
+
+![](Img/pipeline.JPG)
+
+* Realizando el procedimiento de deploy automático 
+
+![](Img/automaticDeploy.JPG)
 
 
 
