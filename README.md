@@ -124,6 +124,40 @@ Si tiene que poner la información para todos los servlets o JSP independienteme
 ![](Img/calculadora5.JPG)
 
 
+# LABORATORIO 6
+
+## Parte I. Integración continua
+
+### Primer punto 
+
+* Cree (si no la tiene aún) una cuenta en el proveedor PAAS Heroku (www.heroku.com).
+
+![](Img/cuentaHeroku.JPG)
+
+* Acceda a su cuenta en Heroku y cree una nueva aplicación
+
+![](Img/aplicacionHeroku.JPG)
+
+* Ahora, para generar la API Key, realizamos clic en Reveal, y ahora vemos nuestra API Key.
+
+![](Img/APIkey.JPG)
+
+* Luego de realizar todo el procedimiento de agregar proyectos, y al seleccionar el proyecto al que le hicimos el despliegue continuo realizando clic en Build Project, vemos que el resultado luego de hacer el respectivo despliegue ha sido satisfactorio.
+
+![](Img/despliegue.JPG)
+
+* Si todo queda correctamente configurado, cada vez que hagan un PUSH al repositorio, CircleCI ejecutará la fase de construcción del proyecto. 
+
+![](Img/punto6.JPG)
+
+![](Img/punto6b.JPG)
+
+
+
+
+
+
+
 
 
 
