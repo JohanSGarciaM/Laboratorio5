@@ -164,8 +164,9 @@ Si tiene que poner la información para todos los servlets o JSP independienteme
 
 ![](Img/automaticDeploy.JPG)
 
+* Realizando el procedimiento de deploy manual 
 
-
+![](Img/deploy.JPG)
 
 
 
