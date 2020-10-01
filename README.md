@@ -181,6 +181,11 @@ Al autenticar en codacy y clonar el proyecto creado, nos valida con una califica
 ![](Img/badgecircle.JPG)
 
 
+# INTERFAZ GRÁFICA
+
+![](interfaz.JPG)
+
+
 
 
 

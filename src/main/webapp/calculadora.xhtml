@@ -5,25 +5,70 @@ xmlns:f="http://xmlns.jcp.org/jsf/core"
 xmlns:p="http://primefaces.org/ui">
 <h:head>
     <title>Calculadora</title>
+    <style type="text/css">
+        h1{
+          background-color: white;
+          text-align: center;
+        }
+        h2{text-align: center;}
+        form{
+          text-align: center;
+        }
+        .grid{
+          width: 100%;
+          line-height: 25px;
+          background-color: darkcyan;
+        }
+
+        .lista{
+          border-color: darkgreen;
+          border-radius: 1em;
+        }
+        
+        body{
+            align-items: center;
+            background-color: cyan;
+        }
+        .valor{
+          font-size: large;
+          font-weight: bold;
+        }
+        .valor1{
+          margin-top: 50px;
+          width: 100px;
+          height: 25px;
+          font-size: large;
+          font-weight: bold; 
+          font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+
 
 </h:head>
-<h:body>
+<h:body> 
+
+  <h1>CALCULADORA</h1>
+  <h2>Write the numbers separated by a ;</h2>
   <h:form id="calculadora_form">
-    <h:panelGrid columns="2"> 
-        <h:outputLabel value="Entrada:"/> 
-        <h:inputText id="lista" type="text" binding="#{input}" /> 
-        <h:outputLabel value="Moda:" />
+    <h:panelGrid columns="2" class="grid"> 
+        <h:outputLabel value="Entrada:" class="valor"/> 
+        <h:inputText class="lista" type="text" binding="#{input}" /> 
+        <h:outputLabel value="Moda:" class="valor"/>
         <h:outputLabel value="#{calculadoraBean.moda}" />
-        <h:outputLabel value="Media:" />
+        <h:outputLabel value="Media:" class="valor"/>
         <h:outputLabel value="#{calculadoraBean.promedio}" />
-        <h:outputLabel value="Desviacion Estandar:" />
+        <h:outputLabel value="Desviacion Estandar:" class="valor" />
         <h:outputLabel value="#{calculadoraBean.standar}" />
-        <h:outputLabel value="Varianza:" />
+        <h:outputLabel value="Varianza:" class="valor"/>
         <h:outputLabel value="#{calculadoraBean.varianza}" />
-        <h:commandButton value="Calcular"  update="calculadora_form" actionListener="#{calculadoraBean.calculate(input.value)}"/>
-        <h:commandButton value="Reiniciar" update="calculadora_form" actionListener="#{calculadoraBean.restart}"/>
+        
     </h:panelGrid>
+    
+    <h:commandButton value="Calcular" class="valor1" update="calculadora_form" actionListener="#{calculadoraBean.calculate(input.value)}"/>
+
+    <h:commandButton value="Reiniciar" class="valor1" update="calculadora_form" actionListener="#{calculadoraBean.restart}"/>
 
   </h:form>
 </h:body>
 </html>
+
