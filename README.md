@@ -183,7 +183,7 @@ Al autenticar en codacy y clonar el proyecto creado, nos valida con una califica
 
 # INTERFAZ GRÁFICA
 
-![](interfaz.JPG)
+![](Img/interfaz.JPG)
 
 
 
